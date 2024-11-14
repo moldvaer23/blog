@@ -9,10 +9,11 @@ export default defineConfig({
     alias: {
       "@app": resolve(__dirname, "src/app"),
       "@pages": resolve(__dirname, "src/pages"),
-      "@widgets": resolve(__dirname, "src/widgets"),
-      "@features": resolve(__dirname, "src/features"),
-      "@entities": resolve(__dirname, "src/entities"),
-      "@shared": resolve(__dirname, "src/shared"),
+      "@uikit": resolve(__dirname, "src/components/ui-kit"),
+      "@widgets": resolve(__dirname, "src/components/widgets"),
+      "@services": resolve(__dirname, "src/services"),
+      "@app-config": resolve(__dirname, "src/config"),
+      "@styles": resolve(__dirname, "src/styles"),
     },
   },
 })

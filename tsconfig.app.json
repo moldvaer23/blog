@@ -27,10 +27,11 @@
     "paths": {
       "@app": ["src/app"],
       "@pages/*": ["src/pages/*"],
-      "@widgets/*": ["src/widgets/*"],
-      "@features/*": ["src/features/*"],
-      "@entities/*": ["src/entities/*"],
-      "@shared/": ["src/shared/*"]
+      "@ui-kit/*": ["src/componetns/ui-kit/*"],
+      "@widgets/*": ["src/componetns/widgets/*"],
+      "@services/*": ["src/services/*"],
+      "@app-config": ["src/config"],
+      "@styles/*": ["src/styles/*"]
     }
   },
   "include": ["src"]
