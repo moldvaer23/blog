@@ -23,6 +23,7 @@ export default tseslint.config(
         "warn",
         { allowConstantExport: true },
       ],
+      "import/no-unresolved": "off",
     },
     settings: {
       "import/resolver": {
@@ -35,6 +36,7 @@ export default tseslint.config(
             ["@services", "src/services"],
             ["@app-config", "src/config"],
             ["@styles", "src/styles"],
+            ["@assets", "src/assets"],
           ],
           extensions: [".js", ".jsx", ".ts", ".tsx"],
         },
